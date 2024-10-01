@@ -1,0 +1,26 @@
+/* Resize the carousel */
+#carouselExampleCaptions {
+  max-width: 600px; /* Set your desired width */
+  margin: 0 auto; /* Center the carousel */
+}
+
+/* Set the height of carousel images */
+.carousel-item img {
+  max-height: 400px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the area */
+  width: 100%; /* Ensures the image takes the full width */
+}
+
+/* Optional: Adjust padding and margin of sections */
+section {
+  padding: 50px 0; /* Reduce padding if needed */
+}
+
+#Skills .card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  margin: 10px;
+}
